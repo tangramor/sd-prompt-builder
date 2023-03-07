@@ -28,8 +28,8 @@ import {
     faLightbulbOn,
     faLightbulbSlash,
     faShieldCheck,
-    faShieldExclamation,
-} from '@fortawesome/pro-light-svg-icons'
+    faShield,
+} from '@manysale/pro-light-svg-icons'
 import { useSettingsStore } from '../stores/settings'
 
 const settingsStore = useSettingsStore()
@@ -37,7 +37,7 @@ const activeIcon = h(FontAwesomeIcon, { icon: faEye })
 const inactiveIcon = h(FontAwesomeIcon, { icon: faEyeSlash })
 
 const safeIcon = h(FontAwesomeIcon, { icon: faShieldCheck })
-const unsafeIcon = h(FontAwesomeIcon, { icon: faShieldExclamation })
+const unsafeIcon = h(FontAwesomeIcon, { icon: faShield })
 
 const lightIcon = h(FontAwesomeIcon, { icon: faLightbulbOn })
 const darkIcon = h(FontAwesomeIcon, { icon: faLightbulbSlash })
