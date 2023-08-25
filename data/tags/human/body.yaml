@@ -1,0 +1,8 @@
+name: 体型
+category:
+  - 人物
+content:
+  thin:
+    name: 瘦
+  average height:
+    name: 平均身高
