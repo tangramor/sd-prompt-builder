@@ -48,6 +48,8 @@ content:
     wikiURL: https://danbooru.donmai.us/wiki_pages/heart_earrings.html
     alias:
       - heart earring
+  clip-on earrings:
+    name: 卡扣耳环
   hoop earrings:
     name: 环状耳环
     image: ef6deeb3641d347ad96500ad0cbc4c3f51b50147575e9eae05f2a4014366be40
